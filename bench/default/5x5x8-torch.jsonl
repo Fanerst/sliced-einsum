@@ -1,0 +1,6 @@
+{"plan": "t19", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 64, "seconds": 2.706046625971794, "ln_z": 149.2822137107841, "peak_rss_gib": 0.3919219970703125}
+{"plan": "t19", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 64, "seconds": 2.5862916074693203, "ln_z": 149.2822137107841, "peak_rss_gib": 0.3947944641113281}
+{"plan": "t19", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 64, "seconds": 2.5192360943183303, "ln_z": 149.2822137107841, "peak_rss_gib": 0.3947944641113281}
+{"plan": "t17", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 512, "seconds": 15.58393386285752, "ln_z": 149.2822137107841, "peak_rss_gib": 0.3697471618652344}
+{"plan": "t17", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 512, "seconds": 15.236203584820032, "ln_z": 149.2822137107841, "peak_rss_gib": 0.3708953857421875}
+{"plan": "t17", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 512, "seconds": 15.797074042260647, "ln_z": 149.2822137107841, "peak_rss_gib": 0.3708953857421875}

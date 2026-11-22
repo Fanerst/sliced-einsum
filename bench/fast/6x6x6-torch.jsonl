@@ -1,0 +1,10 @@
+{"plan": "none", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 1, "seconds": 10.834341576322913, "ln_z": 161.3559583739864, "peak_rss_gib": 24.366622924804688}
+{"plan": "none", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 1, "seconds": 10.879154329188168, "ln_z": 161.3559583739864, "peak_rss_gib": 24.535297393798828}
+{"plan": "t28", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 4, "seconds": 13.6074498873204, "ln_z": 161.3559583739864, "peak_rss_gib": 6.425315856933594}
+{"plan": "t28", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 4, "seconds": 13.272556146606803, "ln_z": 161.3559583739864, "peak_rss_gib": 6.425945281982422}
+{"plan": "t26", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 16, "seconds": 23.73832778353244, "ln_z": 161.3559583739864, "peak_rss_gib": 2.7431602478027344}
+{"plan": "t26", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 16, "seconds": 22.874243672005832, "ln_z": 161.3559583739864, "peak_rss_gib": 2.743885040283203}
+{"plan": "t24", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 64, "seconds": 40.14987085573375, "ln_z": 161.3559583739864, "peak_rss_gib": 0.9670219421386719}
+{"plan": "t24", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 64, "seconds": 39.9684829916805, "ln_z": 161.3559583739864, "peak_rss_gib": 0.9673500061035156}
+{"plan": "t22", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 256, "seconds": 39.22364586498588, "ln_z": 161.3559583739864, "peak_rss_gib": 0.6254959106445312}
+{"plan": "t22", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 256, "seconds": 38.1181391235441, "ln_z": 161.3559583739864, "peak_rss_gib": 0.6258888244628906}

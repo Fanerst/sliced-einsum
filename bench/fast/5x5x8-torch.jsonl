@@ -1,0 +1,15 @@
+{"plan": "none", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 1, "seconds": 1.5329687325283885, "ln_z": 149.2822137107841, "peak_rss_gib": 1.1296005249023438}
+{"plan": "none", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 1, "seconds": 1.450344990938902, "ln_z": 149.2822137107841, "peak_rss_gib": 1.1408538818359375}
+{"plan": "none", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 1, "seconds": 1.444723803550005, "ln_z": 149.2822137107841, "peak_rss_gib": 1.1408538818359375}
+{"plan": "t21", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 32, "seconds": 2.233223296701908, "ln_z": 149.2822137107841, "peak_rss_gib": 0.44541168212890625}
+{"plan": "t21", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 32, "seconds": 2.247306969948113, "ln_z": 149.2822137107841, "peak_rss_gib": 0.44598388671875}
+{"plan": "t21", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 32, "seconds": 2.380205132998526, "ln_z": 149.2822137107841, "peak_rss_gib": 0.44646453857421875}
+{"plan": "t19", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 64, "seconds": 2.9666977748274803, "ln_z": 149.2822137107841, "peak_rss_gib": 0.40093994140625}
+{"plan": "t19", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 64, "seconds": 3.0835056165233254, "ln_z": 149.2822137107841, "peak_rss_gib": 0.4031219482421875}
+{"plan": "t19", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 64, "seconds": 3.024346461519599, "ln_z": 149.2822137107841, "peak_rss_gib": 0.4051170349121094}
+{"plan": "t17", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 1024, "seconds": 30.276800232939422, "ln_z": 149.2822137107841, "peak_rss_gib": 0.369384765625}
+{"plan": "t17", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 1024, "seconds": 29.921152262948453, "ln_z": 149.2822137107841, "peak_rss_gib": 0.3695106506347656}
+{"plan": "t17", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 1024, "seconds": 29.846130849793553, "ln_z": 149.2822137107841, "peak_rss_gib": 0.3699913024902344}
+{"plan": "t15", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 16384, "seconds": 366.711647529155, "ln_z": 149.2822137107841, "peak_rss_gib": 0.36510467529296875}
+{"plan": "t15", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 16384, "seconds": 363.9059103447944, "ln_z": 149.2822137107841, "peak_rss_gib": 0.3654518127441406}
+{"plan": "t15", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 16384, "seconds": 372.09502865653485, "ln_z": 149.2822137107841, "peak_rss_gib": 0.36572265625}

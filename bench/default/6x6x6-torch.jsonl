@@ -1,0 +1,4 @@
+{"plan": "t26", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 16, "seconds": 18.33489786274731, "ln_z": 161.3559583739864, "peak_rss_gib": 1.9446792602539062}
+{"plan": "t26", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 16, "seconds": 16.560706900432706, "ln_z": 161.3559583739864, "peak_rss_gib": 1.9452972412109375}
+{"plan": "t24", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 64, "seconds": 33.42824826203287, "ln_z": 161.3559583739864, "peak_rss_gib": 0.8370628356933594}
+{"plan": "t24", "engine": "torch 2.5.1+cu121", "threads": 16, "slices": 64, "seconds": 32.95507119502872, "ln_z": 161.3559583739864, "peak_rss_gib": 0.8370628356933594}
