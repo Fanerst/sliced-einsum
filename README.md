@@ -77,8 +77,9 @@ with hyperedges (labels on three or more operands) and extents 1 to 3:
 - every contracted label sliced, so each slice is an outer product;
 - a sliced label of extent 1;
 - an output label in the slicing, which planning rejects;
-- the slicer under a target two bits below the unsliced tree, on graph-shaped networks of 20
-  operands, where every plan meets the target;
+- the slicer under a target two bits below the unsliced tree, on 12 graph-shaped networks of 20
+  operands: every plan it returns meets the target and matches the unsliced einsum, and it must
+  find one for at least 10 of the 12 (a target it misses is a planning error);
 - disjoint ranges summed against the whole, and a range past the slice count rejected;
 - complex128 operands.
 
