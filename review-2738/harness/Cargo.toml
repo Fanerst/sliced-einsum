@@ -1,0 +1,9 @@
+# Review of tensor4all/tenferro-rs#2738 (sliced einsum v0) against Fanerst/sliced-einsum 3afd9c8.
+# Both crates build on the same tenferro-rs snapshot (main 1b67fb8f), so the comparison is of the
+# two slice loops and planners, not of tenferro versions.
+[workspace]
+members = ["proto", "port"]
+resolver = "2"
+
+[profile.release]
+debug = false

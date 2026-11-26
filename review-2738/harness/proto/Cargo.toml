@@ -1,0 +1,28 @@
+[package]
+name = "sliced-einsum"
+version = "0.0.0"
+edition = "2021"
+publish = false
+license = "MIT OR Apache-2.0"
+description = "The prototype at the repository root, built on tenferro-rs main 1b67fb8f instead of c4db040"
+autobins = false
+autoexamples = false
+autotests = false
+autobenches = false
+
+# The repository root's sources, unchanged.
+[lib]
+path = "../../../src/lib.rs"
+
+[[example]]
+name = "ising_sliced"
+path = "../../../examples/ising_sliced.rs"
+
+[dependencies]
+tenferro-tensor = { path = "../../tenferro-rs-1b67fb8f/crates/tenferro-tensor" }
+tenferro-cpu = { path = "../../tenferro-rs-1b67fb8f/crates/tenferro-cpu" }
+tenferro-einsum = { path = "../../tenferro-rs-1b67fb8f/crates/tenferro-einsum" }
+omeco = "0.2.6"
+num-complex = "0.4"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

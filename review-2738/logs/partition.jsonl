@@ -1,0 +1,9 @@
+== bin-stock
+{"labels_a":[91,121,109,95,79,147,83],"labels_b":[149,91,7,95,79,121,109],"lattice":[5,5,8],"ln_z_full":149.2822137107841,"ln_z_split":149.2822137107841,"plannings":2,"relative_error":1.7196799679912238e-16,"same_set":false,"slices_a":128,"slices_b":128,"target":19.0}
+{"labels_a":[79,65,109,121,95,113,149],"labels_b":[95,149,1,91,8,65,109,121],"lattice":[5,5,8],"ln_z_full":149.2822137107841,"ln_z_split":149.2822137107841,"plannings":2,"relative_error":5.159039903973671e-16,"same_set":false,"slices_a":128,"slices_b":256,"target":19.0}
+== target-det1/release
+{"labels_a":[85,65,91,95,1,105,7,79],"labels_b":[95,105,65,1,79,85,91,7],"lattice":[5,5,8],"ln_z_full":149.2822137107841,"ln_z_split":149.2822137107841,"plannings":2,"relative_error":1.7196799679912236e-16,"same_set":true,"slices_a":256,"slices_b":256,"target":19.0}
+{"labels_a":[65,105,91,7,1,79,85,95],"labels_b":[79,105,65,91,95,1,7,85],"lattice":[5,5,8],"ln_z_full":149.2822137107841,"ln_z_split":149.2822137107841,"plannings":2,"relative_error":5.159039903973671e-16,"same_set":true,"slices_a":256,"slices_b":256,"target":19.0}
+== target-det2/release
+{"labels_a":[1,7,65,79,85,91,95,105],"labels_b":[1,7,65,79,85,91,95,105],"lattice":[5,5,8],"ln_z_full":149.2822137107841,"ln_z_split":149.2822137107841,"plannings":21,"relative_error":3.439359935982446e-16,"same_set":true,"slices_a":256,"slices_b":256,"target":19.0}
+{"labels_a":[1,7,65,79,85,91,95,105],"labels_b":[1,7,65,79,85,91,95,105],"lattice":[5,5,8],"ln_z_full":149.2822137107841,"ln_z_split":149.2822137107841,"plannings":21,"relative_error":3.439359935982446e-16,"same_set":true,"slices_a":256,"slices_b":256,"target":19.0}

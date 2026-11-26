@@ -1,0 +1,12 @@
+{"flop_overhead":1.535998804390853,"i":0,"labels":[44,214,135,58,65,123,51,207],"plan_seconds":9.399781412,"slices":256,"total_flops":1868469328896.0}
+{"flop_overhead":0.45040917999033464,"i":1,"labels":[47,26,52,57,21,82,118],"plan_seconds":7.187112547,"slices":128,"total_flops":1264292870400.0}
+{"flop_overhead":0.9969286100896325,"i":2,"labels":[142,54,18,166,91,212,138,175,8],"plan_seconds":9.633215267,"slices":512,"total_flops":2247597338624.0}
+{"distinct_label_orders":3,"distinct_label_sets":3,"flop_overhead_max":1.535998804390853,"flop_overhead_min":0.45040917999033464,"net":"ising:6:6:6:bench/d-6x6x6-none.json","order":"autosa","plans":3,"summary":true,"target":24.0}
+{"flop_overhead":13.938730472022472,"i":0,"labels":[41,59,95,164,144,77,71,105,98,53,115,124,118,100],"plan_seconds":9.036263395,"slices":16384,"total_flops":89876103168.0}
+{"flop_overhead":11.151716237869136,"i":1,"labels":[109,86,142,114,62,77,104,120,94,108,118,103,124,52],"plan_seconds":9.910018767,"slices":16384,"total_flops":69034491904.0}
+{"flop_overhead":37.106057610405855,"i":2,"labels":[120,97,138,99,50,123,140,54,90,156,96,174,93,132,55],"plan_seconds":10.661118733,"slices":32768,"total_flops":236453199872.0}
+{"distinct_label_orders":3,"distinct_label_sets":3,"flop_overhead_max":37.106057610405855,"flop_overhead_min":11.151716237869136,"net":"ising:5:5:8:bench/f-5x5x8-none.json","order":"autosa","plans":3,"summary":true,"target":15.0}
+{"flop_overhead":5.316005404095184,"i":0,"labels":[95,79,84,122,44,55,108,82,96,103,114],"plan_seconds":8.943395395,"slices":2048,"total_flops":22915018752.0}
+{"flop_overhead":5.289732807450307,"i":1,"labels":[76,189,192,149,95,85,123,81,75,77],"plan_seconds":6.19129531,"slices":1024,"total_flops":32379920384.0}
+{"flop_overhead":9.769839129324277,"i":2,"labels":[37,96,101,31,122,85,77,27,105,125,95],"plan_seconds":5.98679086,"slices":2048,"total_flops":49776472064.0}
+{"distinct_label_orders":3,"distinct_label_sets":3,"flop_overhead_max":9.769839129324277,"flop_overhead_min":5.289732807450307,"net":"ising:5:5:8:bench/f-5x5x8-none.json","order":"autosa","plans":3,"summary":true,"target":17.0}

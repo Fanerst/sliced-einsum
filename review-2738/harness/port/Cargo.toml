@@ -1,0 +1,13 @@
+[package]
+name = "port-bench"
+version = "0.0.0"
+edition = "2021"
+publish = false
+description = "Runs the prototype's benchmarks through tenferro-einsum's SlicedEinsumPlan (#2738)"
+
+[dependencies]
+tenferro-tensor = { path = "../../tenferro-rs-1b67fb8f/crates/tenferro-tensor" }
+tenferro-cpu = { path = "../../tenferro-rs-1b67fb8f/crates/tenferro-cpu" }
+tenferro-einsum = { path = "../../tenferro-rs-1b67fb8f/crates/tenferro-einsum" }
+serde_json = "1"
+omeco = "0.2.6"

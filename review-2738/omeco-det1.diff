@@ -1,0 +1,11 @@
+--- omeco-0.2.6/src/slicer.rs	2006-07-24 09:21:28
++++ det1/src/slicer.rs	2026-11-26 12:28:38
+@@ -342,7 +342,7 @@
+     // Find the label with maximum count
+     counts
+         .into_iter()
+-        .max_by_key(|&(_, count)| count)
++        .max_by_key(|&(label, count)| (count, std::cmp::Reverse(label)))
+         .map(|(label, _)| label)
+ }
+ 
